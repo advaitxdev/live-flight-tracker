@@ -1,9 +1,9 @@
 import React from "react";
-import Globe3D from "./3d-globe";
+import Globe3D from "./components/ui/3d-globe";
 
 function App() {
   return (
-    <main className="relative flex flex-col items-center justify-between min-h-screen w-full bg-slate-950 text-white overflow-hidden">
+    <main className="relative flex flex-col items-center justify-between min-h-screen w-full bg-gray-900 text-white overflow-hidden">
       {/* Top Header Overlay */}
       <header className="z-10 pt-8 pb-4 text-center">
         <h1 className="font-extrabold text-4xl md:text-5xl tracking-tight text-white drop-shadow-md">
@@ -21,7 +21,7 @@ function App() {
 
       {/* Footer / Status Bar */}
       <footer className="z-10 pb-4 text-xs text-slate-500">
-        Drag to rotate • Scroll to zoom
+        Made with ❤️ by @advaitxdev
       </footer>
     </main>
   );
